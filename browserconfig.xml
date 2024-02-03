@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <browserconfig>
-    <msapplication>
-        <tile>
-            <square150x150logo src="https://cdn.jsdelivr.net/gh/jiwasantuy1815/webnalen@main/mstile-150x150.png"/>
-            <TileColor>Webnalen</TileColor>
-        </tile>
-    </msapplication>
+<msapplication>
+<tile>
+<square150x150logo src="https://cdn.jsdelivr.net/gh/jiwasantuy1815/webnalen@main/mstile-150x150.png"/>
+<square384x384logo src="https://cdn.jsdelivr.net/gh/jiwasantuy1815/webnalen@main/android-chrome-384x384.png"/>
+<TileColor>#2b5797</TileColor>
+</tile>
+</msapplication>
 </browserconfig>
