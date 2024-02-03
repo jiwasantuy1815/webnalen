@@ -3,7 +3,7 @@
     <msapplication>
         <tile>
             <square150x150logo src="https://cdn.jsdelivr.net/gh/jiwasantuy1815/webnalen@main/mstile-150x150.png"/>
-            <TileColor>#da532c</TileColor>
+            <TileColor>Webnalen</TileColor>
         </tile>
     </msapplication>
 </browserconfig>
