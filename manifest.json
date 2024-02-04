@@ -463,11 +463,29 @@
   "lang": "id",
   "orientation": "any",
   "categories": [
-    "magazines"
+    "magazines",
+    "politics"
   ],
   "display_override": [
     "window-controls-overlay",
     "browser",
-    "standalone"
-  ]
+    "standalone",
+    "fullscreen",
+    "minimal-ui"
+  ],
+  "id": "webnalen",
+  "description": "Webnalen adalah website blog yang memberikan segala indormasi",
+  "scope": "/",
+  "iarc_rating_id": "e58c174a-81d2-5c3c-32cc-34b8de4a52e9",
+  "prefer_related_applications": true,
+  "shortcuts": [
+    {
+      "name": "sitemap",
+      "url": "https://www.webnalen.biz.id/p/sitemap.html",
+      "description": ""
+    }
+  ],
+  "edge_side_panel": {
+    "preferred_width": 400
+  }
 }
