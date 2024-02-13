@@ -4,9 +4,9 @@ self.addEventListener('install', (event) => {
       return cache.addAll([
         '/',
         '/index.html',
-        '/style.css',
+        'https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css',
         '/script.js',
-        '/image.jpg',
+        'https://cdn.jsdelivr.net/gh/jiwasantuy1815/webnalen@main/apple-touch-icon.png',
       ]);
     })
   );
@@ -27,6 +27,6 @@ self.addEventListener('push', (event) => {
 
   self.registration.showNotification(title, {
     body: body,
-    icon: '/icon.png',
+    icon: 'https://cdn.jsdelivr.net/gh/jiwasantuy1815/webnalen@main/apple-touch-icon.png',
   });
 });
